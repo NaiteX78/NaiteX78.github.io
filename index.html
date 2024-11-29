@@ -1,1 +1,86 @@
-# Project-Website
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Cabinet médical</title>
+    
+        <!--Pour avoir un tableau avec des bordure, j'ai du utilisé du CSS-->
+        <style> 
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+                
+            }
+            th, td {
+              text-align: center;
+              width: 25%;
+            }
+          </style>
+    </head>
+    <body>
+        <h1><strong>Cabinet médical du <a href="CV.html">Dr De Oliveira</a></strong></h1><!--Quand on clique sur le nom on arrive sur le CV du docteur-->
+        <a href="images/salle-attente.jpg" title="cliquez pour agrandir"><!-- Balise permanttant d'agrandir l'image du cabinet en cliquand dessus-->
+            <img src="images/cabinetmedical.jpg" alt="Entrée cabinet médical" width="350" height="300"><!-- Image du cabinet avec une taille conforme à la page-->
+        </a>
+        <br>
+        <a href="medicament.html">Médicaments</a><!--c'est une balise qui envoie sur la page avec tout les médicaments-->
+        <br>
+        <a href="medicament.html#100e">Dernier médicament de la liste</a><!--La balise medicaments.HTML#100e permet d'aller directement vers le dernier médicament.-->
+        <p>Bienvenue, je suis le Dr De Oliveira.
+            <br>Sur cette page vous trouverez des renseignements sur mon cabinet médical
+        </p>
+        <h2>Horaire d'ouverture</h2><!---->
+        <p>Le cabinet est ouvert tous les jours du Lundi au Samedi.</p>
+        
+        <table><!-- Overture du tableau-->
+            <tr>
+                <th>Lundi</th><!-- Ligne du tableau avec une écriture forte-->
+                <td>9h00 - 12h00</td><!--Colonne du tableau avec les horraires d'ouverture-->
+                <td>14h00 - 17h00</td>
+            </tr>
+            <tr>
+                <th>Mardi</th><!-- Ligne du tableau avec une écriture forte-->
+                <td>9h00 - 12h00</td><!--Colonne du tableau avec les horraires d'ouverture-->
+                <td>14h00 - 17h00</td>
+            </tr>
+            <tr>
+                <th>Mercredi</th><!-- Ligne du tableau avec une écriture forte-->
+                <td>9h00 - 12h00</td><!--Colonne du tableau avec les horraires d'ouverture-->
+                <td>14h00 - 17h00</td>
+            </tr>
+            <tr>
+                <th>Jeudi</th><!-- Ligne du tableau avec une écriture forte-->
+                <td>9h00 - 12h00</td><!--Colonne du tableau avec les horraires d'ouverture-->
+                <td>14h00 - 17h00</td>
+            </tr>
+            <tr>
+                <th>Vendredi</th><!-- Ligne du tableau avec une écriture forte-->
+                <td>9h00 - 12h00</td><!--Colonne du tableau avec les horraires d'ouverture-->
+                <td>14h00 - 17h00</td>
+            </tr>
+            <tr>
+                <th>Samedi</th><!-- Ligne du tableau avec une écriture forte-->
+                <td>9h00 - 12h00</td><!--Colonne du tableau avec les horraires d'ouverture-->
+                <td> - </td>
+            </tr>
+            <tr>
+                <th>Dimanche</th><!-- Ligne du tableau avec une écriture forte-->
+                <td> - </td><!--Colonne du tableau avec les horraires d'ouverture-->
+                <td> - </td>
+            </tr>
+        </table>
+
+        <h2>En cas d'urgence</h2>
+        <p>Pendant les heures d'ouverture, appelez le numéro du cabinet (01.XX.XX.XX.XX)
+            <br>Si vous ne pouvez pas me joindre, appelez le 15 (SAMU) 
+            <br>
+            <br>En dehors des heures d'ouverture, le répondeur du cabinet vous donnera les coordonnées du médecin de garde
+        </p>
+
+
+        <h2>Me joindre par internet</h2>
+        <p>Si vous désirez me joindre, vous pouvez utiliser le formulaire de contact <a href="https://ordomedic.be/fr/contact">le formulaire de contact suivant</a><!--la balise a nous permet de d'aller sur le site pour remplir le forulaire.-->
+            <br>Je suis par ailleurs membre de démonstration des <abbr title="Médecins Maîtres-Toile">MMT</abbr><!--abbr nous sert à faire une abbreviation et quand on passe la souris dessus on voit le nom complet-->
+        </p>
+    </body>
+</html>
